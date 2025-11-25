@@ -3,7 +3,7 @@ users = {"madhav": {"pin": "1243", "balance": 5000},
     "arjun": {"pin": "4756", "balance": 3000}}
 
 def send_money(sender, receiver, amount, pin):
-    if sender not in users or receiver not in users:
+    if sender not in users or receiver not in users: .
         return "User not found!"
 
     if users[sender]["pin"] != pin:
